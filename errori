@@ -8,3 +8,6 @@ Traceback (most recent call last):
     raise ValueError ("invalid UUID specified for service_id")
 ValueError: invalid UUID specified for service_id
 robot@ev3dev:~/onstage2024$ 
+
+
+8f401450-9c6b-4c74-ba8d-187f26fc6c4d
