@@ -1,0 +1,10 @@
+robot@ev3dev:~/onstage2024$ python3 main.py
+Traceback (most recent call last):
+  File "main.py", line 33, in <module>
+    receive_message()
+  File "main.py", line 13, in receive_message
+    advertise_service(server_sock, "SampleServer", service_id=mac_address)
+  File "/usr/lib/python3/dist-packages/bluetooth/bluez.py", line 226, in advertise_service
+    raise ValueError ("invalid UUID specified for service_id")
+ValueError: invalid UUID specified for service_id
+robot@ev3dev:~/onstage2024$ 
